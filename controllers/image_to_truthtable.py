@@ -524,25 +524,6 @@ from NOT import NOT
 from XOR import XOR
 import copy
 
-'''
-connected_gates = [ [None , None , None , 0] ,
-                   [None , None , None , 1] ,
-                   [str(0) , str(1) , None , 0],
-                   [str(0) , str(1) , None , 1]]
-
-connected_gates = [[None, None, None , 3],
-                  [None , None , None , 0],
-                  ["0", "1", None , 1]]
-'''
-connected_gates = [['2', '5', None, 0],
-                   [None, None, None, 0],
-                   ['1', '3', None, 1],
-                   [None, None, None, 2],
-                   ['1', None, None, 2],
-                   ['4', None, None, 3]]
-
-sorted_initial_connected_gates = [[None, None, None, 2], [None, None, None, 0], ['1', None, None, 2]]
-
 input_indices = []
 
 Gates = []
